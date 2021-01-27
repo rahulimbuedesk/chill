@@ -131,7 +131,9 @@ class _LoginFormState extends State<LoginForm> {
                           fontSize: size.width * 0.2, color: Colors.white),
                     ),
                   ),
-                  SizedBox(height:20,),
+                  SizedBox(
+                    height: 20,
+                  ),
                   Container(
                     width: size.width * 0.8,
                     child: Divider(
@@ -188,8 +190,7 @@ class _LoginFormState extends State<LoginForm> {
                       },
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
-                                                errorStyle: TextStyle(color: Colors.white),
-
+                        errorStyle: TextStyle(color: Colors.white),
                         labelText: "Password",
                         labelStyle: TextStyle(
                             color: Colors.white, fontSize: size.height * 0.03),

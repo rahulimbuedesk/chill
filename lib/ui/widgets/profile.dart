@@ -1,6 +1,7 @@
 import 'package:chill/ui/widgets/photo.dart';
 import 'package:flutter/material.dart';
 
+
 Widget profileWidget(
     {padding,
     photoHeight,

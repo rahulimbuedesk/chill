@@ -24,6 +24,7 @@ class SelectUserEvent extends SearchEvent {
   List<Object> get props => [currentUserId, selectedUserId, name, photoUrl];
 }
 
+
 class PassUserEvent extends SearchEvent {
   final String currentUserId, selectedUserId;
 

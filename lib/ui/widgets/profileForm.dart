@@ -1,4 +1,3 @@
-
 import 'dart:io';
 import 'package:intl/intl.dart';
 
@@ -172,9 +171,9 @@ class _ProfileFormState extends State<ProfileForm> {
                     ),
                   ),
                   textFieldWidget(_nameController, "Name", size),
-                    SizedBox(
-                        height: size.height * 0.02,
-                      ),
+                  SizedBox(
+                    height: size.height * 0.02,
+                  ),
                   GestureDetector(
                     onTap: () {
                       DatePicker.showDatePicker(
@@ -190,8 +189,10 @@ class _ProfileFormState extends State<ProfileForm> {
                         },
                       );
                     },
-                    child: Text( age == null ?
-                      "Select Birthday \u{1F4C6}" : "Date of Birth : ${DateFormat('d MMM , y').format(age)}",
+                    child: Text(
+                      age == null
+                          ? "Select Birthday \u{1F4C6}"
+                          : "Date of Birth : ${DateFormat('d MMM , y').format(age)}",
                       style: TextStyle(
                           color: Colors.white, fontSize: size.width * 0.08),
                     ),

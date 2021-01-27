@@ -41,6 +41,7 @@ class MessageRepository {
     return _user;
   }
 
+
   Future<Message> getLastMessage({currentUserId, selectedUserId}) async {
     Message _message = Message();
 
