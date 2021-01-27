@@ -134,4 +134,3 @@ class MessagingRepository {
     return _message;
   }
 }
-

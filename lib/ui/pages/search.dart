@@ -4,7 +4,6 @@ import 'package:chill/repositories/searchRepository.dart';
 import 'package:chill/ui/widgets/iconWidget.dart';
 import 'package:chill/ui/widgets/profile.dart';
 import 'package:chill/ui/widgets/userGender.dart';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';

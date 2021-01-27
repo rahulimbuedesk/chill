@@ -18,4 +18,3 @@ class User {
       this.age,
       this.location});
 }
-

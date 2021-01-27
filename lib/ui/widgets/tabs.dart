@@ -4,7 +4,6 @@ import 'package:chill/ui/pages/matches.dart';
 import 'package:chill/ui/pages/messages.dart';
 import 'package:chill/ui/pages/search.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../constants.dart';

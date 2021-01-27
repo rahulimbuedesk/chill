@@ -12,7 +12,6 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
       : assert(searchRepository != null),
         _searchRepository = searchRepository;
 
-
   @override
   SearchState get initialState => InitialSearchState();
 

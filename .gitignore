@@ -9,7 +9,10 @@
 .history
 .svn/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 16e3b1d (second commit)
 # IntelliJ related
 *.iml
 *.ipr

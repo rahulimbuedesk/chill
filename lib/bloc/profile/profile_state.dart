@@ -12,7 +12,6 @@ class ProfileState {
   final bool isSubmitting;
   final bool isSuccess;
 
-
   bool get isFormValid =>
       isPhotoEmpty &&
       isNameEmpty &&

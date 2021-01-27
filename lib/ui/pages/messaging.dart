@@ -70,7 +70,6 @@ class _MessagingState extends State<Messaging> {
     _messageTextController.clear();
   }
 
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;

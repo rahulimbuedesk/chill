@@ -1,7 +1,6 @@
 import 'package:chill/models/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-
 class SearchRepository {
   final Firestore _firestore;
 

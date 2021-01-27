@@ -11,7 +11,6 @@ abstract class ProfileEvent extends Equatable {
   List<Object> get props => [];
 }
 
-
 class NameChanged extends ProfileEvent {
   final String name;
 

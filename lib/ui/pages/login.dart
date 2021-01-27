@@ -16,7 +16,7 @@ class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(    
         centerTitle: true,
         backgroundColor: backgroundColor,
         elevation: 0,

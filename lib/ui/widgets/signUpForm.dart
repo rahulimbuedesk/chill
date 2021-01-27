@@ -120,7 +120,7 @@ class _SignUpFormState extends State<SignUpForm> {
                   Padding(
                     padding: EdgeInsets.all(size.height * 0.02),
                     child: TextFormField(
-                      controller: _emailController,
+                      controller: _emailController,  
                       keyboardType: TextInputType.emailAddress,
                       autovalidate: true,
                       validator: (_) {
@@ -151,6 +151,7 @@ class _SignUpFormState extends State<SignUpForm> {
                     padding: EdgeInsets.all(size.height * 0.02),
                     child: TextFormField(
                       controller: _passwordController,
+                    
                       autocorrect: false,
                       obscureText: true,
                       autovalidate: true,
