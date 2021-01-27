@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892400594947",
+    "project_id": "chill-caba7",
+    "storage_bucket": "chill-caba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892400594947:android:69ce7642059602bdbd1e36",
+        "android_client_info": {
+          "package_name": "com.example.chill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892400594947-0bkk0a5h9mbhenforgpfc08u50m3vs4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7_Ne9yWX4ZiWDjOtzovUPT1q899Avwfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892400594947-0bkk0a5h9mbhenforgpfc08u50m3vs4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
